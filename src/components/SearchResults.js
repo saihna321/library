@@ -16,8 +16,8 @@ const SearchResults = ({ query }) => {
   }, [query, page]);
 
   useEffect(() => {
-    setBooks([]);  // Clear books when query changes
-    setPage(1);    // Reset to page 1
+    setBooks([]);  
+    setPage(1);   
   }, [query]);
 
   useEffect(() => {
