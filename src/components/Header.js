@@ -1,13 +1,16 @@
 import React from 'react'
 import { faSearch, faBookBookmark} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import Categories from './Categories'
 function Header() {
     return (
         <div className='header'>
+            <div className='navbar'>
             <h1 className='logo'>NomiinSan</h1>
             <SearchBar></SearchBar>
             <SavedBooks></SavedBooks>
+            </div>
+        
         </div>
         
     )
